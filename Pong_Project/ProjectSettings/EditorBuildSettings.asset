@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scn_game.unity
     guid: 3a271b8cf0533974a9b4406658868242
+  - enabled: 1
+    path: Assets/Scenes/scn_register.unity
+    guid: 33e32d5140d4b5f4fbd50e8a2f98710c
   m_configObjects: {}
