@@ -7,7 +7,6 @@ public class MusicManager : MonoBehaviour
 
     public AudioClip musicForScene1;
     public AudioClip musicForScene2;
-    public AudioClip musicForOtherScenes;
 
     private AudioSource audioSource;
 
@@ -34,8 +33,7 @@ public class MusicManager : MonoBehaviour
         }
         else
         {
-            audioSource.clip = musicForOtherScenes;
-            audioSource.Play();
+            audioSource.Stop();
         }
     }
 
