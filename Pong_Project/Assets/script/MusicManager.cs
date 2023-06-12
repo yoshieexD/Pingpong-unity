@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MusicManager : MonoBehaviour
@@ -9,6 +10,8 @@ public class MusicManager : MonoBehaviour
     public AudioClip musicForScene2;
 
     private AudioSource audioSource;
+
+    public Slider musicslider;
 
     void Start()
     {
