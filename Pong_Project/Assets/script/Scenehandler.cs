@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Scenehandler : MonoBehaviour
 {
-    public GameObject settingsPanel;
-   public  void register()
+public GameObject settingsPanel;
+public  void register()
     {
-        SceneManager.LoadScene("scn_register");
+    SceneManager.LoadScene("scn_register");
     }
 
 public void login(){
