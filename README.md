@@ -1,3 +1,3 @@
 # Pingpong-unity
 
-GAMEDEV 2 PROJECT 
+Pingpong multiplayer game using photon network
